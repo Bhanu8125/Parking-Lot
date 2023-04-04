@@ -17,7 +17,6 @@ public class TicTacToe {
         int playerSize = dimension - 1;
         List<Player> players = new ArrayList<Player>();
         String  botDifficulty = null;
-
         sc.nextLine();
         System.out.println("Do you need Bot Player Y/N:");
         String isBotReq = sc.nextLine();
